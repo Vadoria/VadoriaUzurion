@@ -1,12 +1,12 @@
 {
-  "name": "Uzurion-Launcher",
+  "name": "vadoria",
   "version": "2.0.5",
-  "productName": "Uzurion Launcher",
-  "description": "Launcher Mincraft custom (crack, premium)",
+  "productName": "Vadoria",
+  "description": "Vadoria Launcher",
   "main": "src/index.html",
-  "author": "Luuxis",
+  "author": "Nylun",
   "window": {
-    "title": "Uzurion update",
+    "title": "Vadoria update",
     "width": 400,
     "height": 500,
     "frame": false,
@@ -18,7 +18,7 @@
     "node": "16.x.x"
   },
   "chromium-args": "--enable-logging --v=1 --disable-gpu --mixed-content",
-  "url": "http://launcher.selvania.fr",
+  "url": "http://launcher.vadoriafaction.inovaperf.me",
   "user": "",
   "webkit": {
     "plugin": true
@@ -34,7 +34,7 @@
   },
   "license": "CC0",
   "build": {
-    "appId": "Uzurion Launcher",
+    "appId": "Vadoria Launcher",
     "nwVersion": "0.60.0",
     "packed": true,
     "targets": [
@@ -62,16 +62,16 @@
     ],
     "outputPattern": "${NAME}-${PLATFORM}",
     "win": {
-      "productName": "Uzurion Launcher",
-      "companyName": "Uzurion Launcher",
+      "productName": "Vadoria Launcher",
+      "companyName": "Vadoria Launcher",
       "copyright": "copyright",
       "icon": "./src/assets/images/icons/icon.ico"
     },
     "mac": {
-      "displayName": "Uzurion-Launcher",
+      "displayName": "Vadoria-Launcher",
       "copyright": "copyright",
       "plistStrings": {
-        "CFBundleIdentifier": "Uzurion-Launcher"
+        "CFBundleIdentifier": "Vadoria-Launcher"
       }
     },
     "nsis": {
@@ -90,6 +90,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luuxis/Uzurion-Launcher.git"
+    "url": "git+https://github.com/Vadoria/VadoriaUzurion.git"
   }
 }
